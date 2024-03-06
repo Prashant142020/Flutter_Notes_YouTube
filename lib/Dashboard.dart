@@ -3,13 +3,20 @@ import 'package:youtube_notes/Widgets/section2/2.3_Icon.dart';
 import 'package:youtube_notes/Widgets/section2/2.4_Container.dart';
 import 'package:youtube_notes/Widgets/section2/2.5_Elevated%20Button.dart';
 import 'package:youtube_notes/Widgets/section2/2.6_AppBar_with_ActionButtons.dart';
+import 'package:youtube_notes/Widgets/section2/2.7_Row_Column.dart';
 
 class Dashboard extends StatelessWidget {
   const Dashboard({super.key});
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: TAppBar()
+      body:
+      
+      
+      
+       TRowColumn()
+
+      // TAppBar()
 
       // AddElevatedButton()
 
