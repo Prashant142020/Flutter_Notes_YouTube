@@ -2,22 +2,22 @@ import 'package:flutter/material.dart';
 import 'package:youtube_notes/Widgets/section2/2.3_Icon.dart';
 import 'package:youtube_notes/Widgets/section2/2.4_Container.dart';
 import 'package:youtube_notes/Widgets/section2/2.5_Elevated%20Button.dart';
+import 'package:youtube_notes/Widgets/section2/2.6_AppBar_with_ActionButtons.dart';
 
- 
-class  Dashboard extends StatelessWidget {
-  const  Dashboard({super.key});
+class Dashboard extends StatelessWidget {
+  const Dashboard({super.key});
   @override
   Widget build(BuildContext context) {
-    return const  Scaffold(
-      body: 
+    return const Scaffold(
+      body: TAppBar()
 
-      AddElevatedButton()
+      // AddElevatedButton()
 
       // AddContainer()
 
       //  AddIcon()
-       
-       ,
-    ) ;
+
+      ,
+    );
   }
 }
