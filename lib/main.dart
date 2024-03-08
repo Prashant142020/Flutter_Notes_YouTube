@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:youtube_notes/Dashboard.dart';
+import 'package:youtube_notes/dashboard.dart';
 
 void main() => runApp(const App());
 
